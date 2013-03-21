@@ -4,5 +4,6 @@ source "http://rubygems.org"
 gemspec
 
 gem "rake"
-gem "resque"
+gem "resque", git: "https://github.com/defunkt/resque.git"
+gem "thor", "0.17.0"
 
